@@ -2,10 +2,10 @@
 
 #Open codes.zip file then follow the steps bellow:
 
-#step1:50 times randomly pick a set of 22 independent SNPs, one from each autosome with MAF>0.1
+#step1: 50 times randomly pick a set of 22 independent SNPs, one from each autosome with MAF>0.1
 run 01-50times_22SNPs_MAF.R
 
-#step2:extract the imputed genotypes of pre-defined 22 SNPs to the separate files.
+#step2: extract the imputed genotypes of pre-defined 22 SNPs to the separate files.
 run 02-extract-imputed-GT.22.sh
 
 #step3: Calculate the risk disease f=0.01*(1.15)^n and make 3 binary phenotypes for binary association tests
