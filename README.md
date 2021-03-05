@@ -1,6 +1,6 @@
 # Assessment of significance of conditionally independent GWAS signals
 
-#Open codes.zip file and follow the steps bellow:
+#Open codes-simulation under the null.zip and follow the steps bellow:
 
 #step1: 50 times randomly pick a set of 22 independent SNPs, one from each autosome with MAF>0.1.
 run 01-50times_22SNPs_MAF.R
