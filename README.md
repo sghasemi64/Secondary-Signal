@@ -27,5 +27,5 @@ run 08-5Mb_LD_region.sh
 
 #step9: run INTERSNP test (INTERSNP.zip file)
 
-#step10: Determin the SNP-specific alpha-threshold for each candidate SNP and find secondary signals with "quasi adaptive method"
-run 10-Final_secondary_signal.R
+#step10: Determin the SNP-specific alpha-threshold for each candidate SNP and find secondary signals with "quasi adaptive method".
+run 10-Final_G5-function.R
